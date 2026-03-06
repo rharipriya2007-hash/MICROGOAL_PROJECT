@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MicroGoal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+<h1>🎯 MicroGoal</h1>
+<p>Small Goals • Big Success</p>
+
+<button id="darkModeBtn">🌙 Dark Mode</button>
+</header>
+
+<div class="goalInput">
+<input type="text" id="goalInput" placeholder="Enter your goal...">
+<button onclick="addGoal()">Add Goal</button>
+</div>
+
+<div class="progressBox">
+<p>Progress</p>
+<div class="progressBar">
+<div id="progressFill"></div>
+</div>
+</div>
+
+<ul id="goalList"></ul>
+
+<div class="streakBox">
+🔥 Daily Streak: <span id="streak">0</span> days
+</div>
+
+<p class="motivation">Stay focused. Stay consistent. 🚀</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

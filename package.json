@@ -1,0 +1,20 @@
+{
+  "name": "microgoal_project",
+  "version": "1.0.0",
+  "description": "🌟 MICROGOAL Tracker Web App 🌟",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "microgoal",
+    "tracker",
+    "webapp"
+  ],
+  "author": "YourName",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1"
+  }
+}
